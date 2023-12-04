@@ -1,0 +1,14 @@
+---
+kubernetes:
+  children:
+    master:
+      hosts:
+        node1:
+          ansible_user: rogue
+          ansible_host: 192.168.2.211
+        node2:
+          ansible_user: rogue
+          ansible_host: 192.168.2.212
+        node3:
+          ansible_user: rogue
+          ansible_host: 192.168.2.213
